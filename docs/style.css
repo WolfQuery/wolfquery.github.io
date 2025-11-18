@@ -38,6 +38,34 @@ th {
   border-color: var(--tan);
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--dark-blue);
+  }
+
+ul li {
+  float: left;
+  padding: 8px
+}
+
+ul li a {
+  display: block;
+  color: var(--tan);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  border-style: dotted;
+  border-width: 3px
+}
+
+ul li a:hover {
+  background-color: var(--light-blue);
+}
+
 .limelight-regular {
   font-family: "Limelight", sans-serif;
   font-weight: 400;
