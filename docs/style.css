@@ -1,11 +1,41 @@
 
+
+:root {
+--dark-blue: #25344F;
+--light-blue: #617891;
+--tan: #D5B893;
+--brown: #6F4D38;
+--red: #632024;
+}
+
 body {
   font-family: "Federo", sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   font-style: normal;
 
-  color: #cbb2f7;
-  background-color: #1c182d;
+  color: var(--tan);
+  background-color: var(--dark-blue);
+}
+
+h1, h2, h3 {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--tan)
+}
+
+ table, th, td {
+  border-width: 3px;
+  border-style: solid;
+  padding: 10px;
+  border-collapse: collapse;
+  color: var(--tan);
+}
+
+th {
+  background-color: var(--tan);
+  color: var(--dark-blue);
+  border-color: var(--tan);
 }
 
 .limelight-regular {
@@ -20,12 +50,3 @@ body {
   font-style: normal;
 }
 
-h1, h2, h3 {
-  font-family: "Limelight", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-table, th, td {
-  border: 1px solid;
-}
