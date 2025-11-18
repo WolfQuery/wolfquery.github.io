@@ -15,8 +15,14 @@ body {
 
   color: var(--tan);
   background-color: var(--dark-blue);
-}
+ }
 
+.center {
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+
+}
 h1, h2, h3 {
   font-family: "Limelight", sans-serif;
   font-weight: 400;
@@ -30,6 +36,8 @@ h1, h2, h3 {
   padding: 10px;
   border-collapse: collapse;
   color: var(--tan);
+  margin: auto;
+
 }
 
 th {
@@ -58,7 +66,7 @@ ul li a {
   padding: 14px 16px;
   text-decoration: none;
 
-  border-style: dotted;
+  border-style: solid;
   border-width: 3px
 }
 
