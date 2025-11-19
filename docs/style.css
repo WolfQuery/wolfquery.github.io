@@ -50,41 +50,51 @@ th {
   border-color: var(--tan);
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: var(--dark-blue);
-  }
 
-ul li {
-  float: left;
-  padding: 8px
-}
-
-ul li a {
-  display: block;
-  color: var(--tan);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  
-  font-size: 17px;
-
-  border-style: solid;
-  border-width: 3px
-}
-
-ul li a:hover {
-  background-color: var(--light-blue);
-}
 
 img {
   border-radius: 8px;
   max-width: 175px;
   height: auto;
 }
+
+
+ul, li {
+  list-style-type: square;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--dark-blue);
+}
+
+.nav-bar ul li {
+  float: left;
+  padding: 8px;
+    list-style-type: none;
+}
+
+.nav-bar ul li a {
+  display: block;
+  color: var(--tan);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  font-size: 17px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.nav-bar ul li a:hover {
+  background-color: var(--light-blue);
+}
+
 
 .big-letters {
   font-family: "Limelight", sans-serif;
