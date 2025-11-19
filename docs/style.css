@@ -11,6 +11,7 @@ body {
   font-family: "Federo", sans-serif;
   font-weight: 900;
   font-style: normal;
+  font-size: 20px;
 
   color: var(--tan);
   background-color: var(--dark-blue);
@@ -27,6 +28,10 @@ h1, h2, h3 {
   font-weight: 400;
   font-style: normal;
   color: var(--tan)
+}
+
+h1 {
+  font-size: 40px
 }
 
  table, th, td {
@@ -64,6 +69,8 @@ ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
+  font-size: 17px;
 
   border-style: solid;
   border-width: 3px
@@ -71,6 +78,27 @@ ul li a {
 
 ul li a:hover {
   background-color: var(--light-blue);
+}
+
+img {
+  border-radius: 8px;
+  max-width: 175px;
+  height: auto;
+}
+
+.big-letters {
+  font-family: "Limelight", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.quote {
+  font-family: "Federo", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  margin: 0px 200px 0px 200px
 }
 
 .limelight-regular {
