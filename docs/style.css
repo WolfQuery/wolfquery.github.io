@@ -58,6 +58,21 @@ img {
   height: auto;
 }
 
+a:link {
+  color: var(--brown)
+}
+
+a:hover {
+  color: var(--tan)
+}
+
+a:active {
+  color: var(--light-blue);
+}
+
+a:visited {
+  color: var(--red)
+}
 
 ul, li {
   list-style-type: square;
