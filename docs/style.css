@@ -111,6 +111,38 @@ ul, li {
   background-color: var(--light-blue);
 }
 
+.pdf-card {
+    position: relative;
+    display: block;
+    width: 250px;         /* or responsive */
+    background: #111;
+    border: 1px solid #866c3d; /* deco gold/brass border */
+    overflow: hidden;
+}
+
+.pdf-card img {
+    width: 100%;
+    display: block;
+}
+
+.pdf-card .pdf-info {
+    padding: 0.5rem 1rem;
+    color: #f0e7d8;
+    text-align: center;
+}
+
+.pdf-card .description {
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s ease;
+    overflow: hidden;
+}
+
+.pdf-card:hover .description {
+    max-height: 150px;
+    opacity: 1;
+}
+
 
 .big-letters {
   font-family: "Limelight", sans-serif;
