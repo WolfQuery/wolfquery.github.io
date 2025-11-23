@@ -2,6 +2,7 @@
 :root {
 --dark-blue: #25344F;
 --light-blue: #617891;
+--lighter-blue: #95b8dd;
 --tan: #D5B893;
 --brown: #6F4D38;
 --red: #632024;
@@ -59,7 +60,7 @@ img {
 }
 
 a:link {
-  color: var(--light-blue)
+  color: var(--lighter-blue)
 }
 
 a:hover {
