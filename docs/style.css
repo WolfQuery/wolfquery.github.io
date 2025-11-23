@@ -59,19 +59,19 @@ img {
 }
 
 a:link {
-  color: var(--brown)
+  color: var(--light-blue)
 }
 
 a:hover {
-  color: var(--tan)
+  color: var(--red)
 }
 
 a:active {
-  color: var(--light-blue);
+  color: var(--tan);
 }
 
 a:visited {
-  color: var(--red)
+  color: var(--brown)
 }
 
 ul, li {
