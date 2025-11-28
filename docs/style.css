@@ -91,6 +91,7 @@ ul, li {
 
 .nav-bar ul li {
   float: left;
+  align-self: center;
   padding: 8px;
     list-style-type: none;
 }
@@ -116,7 +117,7 @@ ul, li {
     display: block;
     width: 250px;         /* or responsive */
     background: #111;
-    border: 3px solid var(--tan); /* deco gold/brass border */
+    border: 3px solid var(--tan); 
     overflow: hidden;
 }
 
@@ -153,6 +154,11 @@ ul, li {
   font-weight: 900;
   font-style: normal;
   font-size: 25px;
+}
+
+.small-letters {
+  font-size: 15px;
+  font-style: italic;
 }
 
 .quote {
