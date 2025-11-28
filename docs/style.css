@@ -116,17 +116,20 @@ ul, li {
     display: block;
     width: 250px;         /* or responsive */
     background: #111;
-    border: 1px solid #866c3d; /* deco gold/brass border */
+    border: 3px solid var(--tan); /* deco gold/brass border */
     overflow: hidden;
 }
 
 .pdf-card img {
-    width: 100%;
-    display: block;
+    max-width: 500%;
+    max-height: auto;
+    object-fit: contain;
+    padding: 5px 5px;
+    padding-top: 15px;
 }
 
 .pdf-card .pdf-info {
-    padding: 0.5rem 1rem;
+    padding: 0px 10px;
     color: #f0e7d8;
     text-align: center;
 }
@@ -136,6 +139,7 @@ ul, li {
     opacity: 0;
     transition: 0.3s ease;
     overflow: hidden;
+    color: var(--tan)
 }
 
 .pdf-card:hover .description {
